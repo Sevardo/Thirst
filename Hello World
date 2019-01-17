@@ -3,6 +3,7 @@ public class Erstes
     public static void main(String[] args)
     {
         System.out.println("Hallo Welt" + 1);
-        tests();
+        Toaster frisch = new Toaster( 2, true );
+        frisch.toastTest();
     }
 }
