@@ -1,0 +1,29 @@
+public class Toaster extends Erster
+{
+    private int toastAnzahl;
+    private boolean goldBraun;
+    
+    public Toaster( int a, boolean b )
+    {
+        this.a = toastAnzahl;
+        this.b = goldBraun;
+    }
+    
+    public boolean toastTest( int a, boolean b )
+    {
+        if( (a > 0) && (b == true) )
+        {
+            return true;
+        }
+        return false;
+    } 
+    
+    public boolean toastZeit( int x, boolean b )
+    {
+        if( x > 179 )
+        {
+            return b = true;
+        }
+        return b = false;
+    }
+}
