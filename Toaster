@@ -1,4 +1,4 @@
-public class Toaster extends Erster
+public class Toaster extends Erstes
 {
     private int toastAnzahl;
     private boolean goldBraun;
